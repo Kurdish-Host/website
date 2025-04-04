@@ -67,9 +67,10 @@ export default function Home() {
             </ul>
           </nav>
           <Button
-            size="sm"
-            className="bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-700 hover:to-cyan-600 border-none shadow-lg shadow-blue-700/30"
-          >
+size="sm" 
+              className="bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-700 hover:to-cyan-600 border-none shadow-lg shadow-blue-700/30"
+              onClick={() => window.location.href = 'https://dash.devmapxor.io'}
+            >
             Sign In
           </Button>
         </header>
